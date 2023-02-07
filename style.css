@@ -1,0 +1,59 @@
+#container {
+    box-sizing: border-box;
+    height: calc(100vH);
+    font-family: Roboto;
+    background-color: #2a3886;
+    padding-top: calc((100vh - 510px) / 2);
+}
+
+.figures_wrapper {
+    width: 600px;
+    height: 450px;
+    color: #292424;
+    background-color: #ffffff;
+    border-radius: 1px;
+    margin: 0 auto;
+    padding: 30px;;
+}
+
+.figures_header {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.figures_screen {
+    position: relative;
+    height: 300px;
+    border: 1px solid #000000;
+    margin: 0 0 20px 0;
+}
+
+.figures_screen div {
+    position: absolute;
+}
+
+.number,
+.button {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+
+#figures_number {
+    width: 120px;
+    outline: none;
+    margin: 0 0 0 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+#start {
+    width: 120px;
+    height: 28px;
+    background: #1e0c3d;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    outline: none;
+}
